@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+}
+
+input {
+    border-color: 1px solid #5f9341;
+    width: 100%; 
+    padding: 10px;  ; 
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: #5f9341;
+    color: aliceblue;
+    padding: 10px;
+    border: 1px solid #5f9341;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* STYLE THE LIST ACCORDING TO THE DESIGN */
+#delete-btn {
+    background-color: white;
+    color: #5f9341;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0 ;
+    margin-top: 20px;
+}
+
+li {
+    margin-top: 5px ;;
+}
+
+a:link {
+    color: #5f9341 ;
+    text-decoration: none ;
+    background-color: transparent ;
+}
+a:visited {
+    color: purple ;
+    text-decoration: none ;
+    background-color: transparent ;
+}
+a:hover {
+    color: red ;
+    text-decoration: underline ;
+    background-color: transparent ;
+}
+a:active {
+    color: yellow ;
+    text-decoration: underline ;
+    background-color: transparent ;
+}
